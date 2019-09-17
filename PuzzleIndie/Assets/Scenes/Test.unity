@@ -448,7 +448,7 @@ PrefabInstance:
     - target: {fileID: 5065139984846716493, guid: ce114b32f8a06fd45afe4dffc8ddd994,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 5065139984846716493, guid: ce114b32f8a06fd45afe4dffc8ddd994,
         type: 3}
@@ -478,7 +478,7 @@ PrefabInstance:
     - target: {fileID: 5065139984846716493, guid: ce114b32f8a06fd45afe4dffc8ddd994,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5065139984846716493, guid: ce114b32f8a06fd45afe4dffc8ddd994,
         type: 3}
@@ -497,12 +497,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1687258585, guid: ce114b32f8a06fd45afe4dffc8ddd994, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.92444175
+      value: 0.9244418
       objectReference: {fileID: 0}
     - target: {fileID: 6470900463358993360, guid: ce114b32f8a06fd45afe4dffc8ddd994,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365839675204805359, guid: ce114b32f8a06fd45afe4dffc8ddd994,
+        type: 3}
+      propertyPath: footPlanting.walkStepDistance
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365839675204805359, guid: ce114b32f8a06fd45afe4dffc8ddd994,
+        type: 3}
+      propertyPath: footPlanting.runStepDistance
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1687258586, guid: ce114b32f8a06fd45afe4dffc8ddd994, type: 3}
@@ -557,7 +567,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: cd2ca4ce8d38a4346b7094c375df823b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: cd2ca4ce8d38a4346b7094c375df823b,
         type: 3}
@@ -626,7 +636,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b47b3f4e9621dc740b0a81f3969e1cd3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b47b3f4e9621dc740b0a81f3969e1cd3,
         type: 3}
@@ -811,7 +821,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16784
+  m_Name: pb_Mesh19816
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1018,7 +1028,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b47b3f4e9621dc740b0a81f3969e1cd3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b47b3f4e9621dc740b0a81f3969e1cd3,
         type: 3}
@@ -1087,7 +1097,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 3be2530b705eba84ca1fd275bc55b4ff,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3be2530b705eba84ca1fd275bc55b4ff,
         type: 3}
