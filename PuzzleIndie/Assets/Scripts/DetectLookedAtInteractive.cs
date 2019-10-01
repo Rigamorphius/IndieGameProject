@@ -11,6 +11,7 @@ using UnityEngine;
 /// </summary>
 public class DetectLookedAtInteractive : MonoBehaviour
 {
+    
     [Tooltip("Starting point of raycast used to detect interactives")]
     [SerializeField]
     private Transform raycastOrigin;
@@ -18,7 +19,7 @@ public class DetectLookedAtInteractive : MonoBehaviour
     [Tooltip("How far from a raycastOrigin we will search for interactive elements")]
     [SerializeField] 
     private float maxRange = 5.0f;
-    
+
     /// <summary>
     /// An event raised when the player looks at a different IInteractive
     /// </summary>
@@ -63,7 +64,7 @@ private IInteractive lookedAtInteractive;
             //Debug.Log($"Player is looking at: + {hitInfo.collider.gameObject.name}");
             interactive = hitInfo.collider.gameObject.GetComponent<IInteractive>();
         }
-            return interactive;
+        return interactive;
         }
     }
 
