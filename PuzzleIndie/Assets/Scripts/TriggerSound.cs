@@ -5,9 +5,9 @@ using UnityEngine.Audio;
 
 public class TriggerSound : MonoBehaviour
 {
-
     private AudioSource audioSource;
     bool used = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +23,7 @@ public class TriggerSound : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (used == true) {
-audioSource.Play();
-        Debug.Log("Sound Played");
+            audioSource.Play();
             used = false;
         }
 

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - enemy
   - Sound
+  - Sound2
+  - Trigger
   layers:
   - Default
   - TransparentFX
