@@ -28,47 +28,7 @@ audioSource = GetComponent<AudioSource>();
     public override void InteractWith()
     {
 
-        if (gameObject.name == "Greed")
-        {
-            score = score += 1;
-            Debug.Log(score.ToString());
-           
-        }
-        else if (gameObject.name == "Wrath")
-        {
-            score = score += 1;
-            Debug.Log(score.ToString());
-        }
-        else if (gameObject.name == "Pride")
-        {
-            score = score += 1;
-            Debug.Log(score.ToString());
-        }
-        else if (gameObject.name == "Gluttony")
-        {
-            score = score += 1;
-            Debug.Log(score.ToString());
-        }
-        else if (gameObject.name == "Sloth")
-        {
-            score = score += 1;
-            Debug.Log(score.ToString());
-        }
-        else if (gameObject.name == "Envy")
-        {
-            score = score += 1;
-            Debug.Log(score.ToString());
-        }
-        else if (gameObject.name == "Lust")
-        {
-            score = score += 1;
-            Debug.Log(score.ToString());
-        }
-
-        if (score == 7) {
-            SceneManager.LoadScene("Win");
-        }
-
+        
         if (isReusable || hasBeenUsed) {
         base.InteractWith();
             objectToggle.SetActive(!objectToggle.activeSelf);      

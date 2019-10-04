@@ -5,6 +5,14 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class Door : InteractiveObject
 {
+    [SerializeField]
+    public bool isLocked = true;
+
+    [SerializeField]
+    private string lockedDisplayText = "Locked";
+
+    public override string DisplayText => isLocked ? lockedDisplayText : base.displayText;
+
     private Animator animator;
     private bool isOpen = false;
 
@@ -22,7 +30,7 @@ public class Door : InteractiveObject
    
     public override void InteractWith()
     {
-        if (!isOpen) {
+        if (!isOpen && ! isLocked) {
         base.InteractWith();
         animator.SetBool("shouldOpen",true);
         displayText = string.Empty;

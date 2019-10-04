@@ -8,6 +8,8 @@ TagManager:
   - Sound
   - Sound2
   - Trigger
+  - key
+  - door
   layers:
   - Default
   - TransparentFX

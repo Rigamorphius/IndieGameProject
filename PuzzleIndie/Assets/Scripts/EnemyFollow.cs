@@ -20,14 +20,14 @@ public class EnemyFollow : MonoBehaviour
 
     void FixedUpdate()
     {
-        OnMouseEnter();
+        //OnMouseEnter();
         this.gameObject.GetComponent<NavMeshAgent>().destination = player.transform.position;
 
     }
 
-    private void OnMouseEnter()
-    {
-        this.GetComponent<EnemyFollow>().enabled = true;
-        audioSource.Stop();
-    }
+    //private void OnMouseEnter()
+    //{
+    //    this.GetComponent<EnemyFollow>().enabled = true;
+    //    audioSource.Stop();
+    //}
 }
