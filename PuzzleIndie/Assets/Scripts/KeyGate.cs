@@ -12,7 +12,7 @@ public class KeyGate : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other)
-    {Debug.Log("Keycount = " + Key.keyCount);
+    {
         if (other.gameObject.tag == "Player" && Key.keyCount > 0)
         {
 

@@ -6,6 +6,7 @@ public class EnableEnemyFollowTrigger : MonoBehaviour
 {
     [SerializeField]
     public EnemyFollow componentToEnable;
+
     private AudioSource audioSource;
     private AudioSource audioSource2;
     bool used = true;
@@ -18,11 +19,10 @@ public class EnableEnemyFollowTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        componentToEnable.enabled = true;
-        audioSource.Stop();
+        
         if (used == true)
-        {
-            
+        {      componentToEnable.enabled = true;
+            audioSource.Stop();
             audioSource2.Play();
             used = false;
         }

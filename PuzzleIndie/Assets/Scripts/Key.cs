@@ -16,7 +16,7 @@ public class Key : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player") {
-            keyCount = 2;
+            keyCount = 1;
             Destroy(key);
         }
     }
