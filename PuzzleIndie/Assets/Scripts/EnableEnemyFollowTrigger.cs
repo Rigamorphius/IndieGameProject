@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnableEnemyFollowTrigger : MonoBehaviour
 {
     [SerializeField]
-    private EnemyFollow componentToEnable;
+    public EnemyFollow componentToEnable;
     private AudioSource audioSource;
     private AudioSource audioSource2;
     bool used = true;
@@ -22,6 +22,7 @@ public class EnableEnemyFollowTrigger : MonoBehaviour
         audioSource.Stop();
         if (used == true)
         {
+            
             audioSource2.Play();
             used = false;
         }

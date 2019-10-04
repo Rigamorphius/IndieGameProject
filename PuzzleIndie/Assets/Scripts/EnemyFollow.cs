@@ -13,14 +13,14 @@ public class EnemyFollow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.GetComponent<EnemyFollow>().enabled = false;
+        this.GetComponent<EnemyFollow>().enabled = true;
         player = GameObject.FindGameObjectWithTag("Player");
-        audioSource = GameObject.FindGameObjectWithTag("Sound").GetComponent<AudioSource>();    
+        audioSource = GameObject.FindGameObjectWithTag("Sound").GetComponent<AudioSource>();
+        
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        //OnMouseEnter();
         this.gameObject.GetComponent<NavMeshAgent>().destination = player.transform.position;
 
     }
