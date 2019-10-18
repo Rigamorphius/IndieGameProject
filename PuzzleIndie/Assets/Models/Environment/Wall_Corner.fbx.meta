@@ -3,7 +3,12 @@ guid: 5aa3cc400f2b8064ebd062c651114734
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wallBeam_Vertical_01_MAT
+    second: {fileID: 2100000, guid: c3819ff540af3bb46b8582e45490e465, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -3,7 +3,17 @@ guid: ae488626e0324d948b16b3caaf9c26e0
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: caed8d75f7f8365468372b0b4a2979e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wallBeam_Horizon_01_MAT
+    second: {fileID: 2100000, guid: caed8d75f7f8365468372b0b4a2979e8, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
