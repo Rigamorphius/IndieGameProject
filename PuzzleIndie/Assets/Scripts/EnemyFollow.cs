@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.SceneManagement;
 
 public class EnemyFollow : MonoBehaviour
 {
     private AudioSource audioSource;
-    GameObject player;
+    private NavMeshAgent agent;
+    private GameObject player;
 
 
     // Start is called before the first frame update
@@ -15,18 +15,11 @@ public class EnemyFollow : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         audioSource = GameObject.FindGameObjectWithTag("Sound").GetComponent<AudioSource>();
-        
+        agent = gameObject.GetComponent<NavMeshAgent>();
     }
 
     void Update()
-    {   
-        this.gameObject.GetComponent<NavMeshAgent>().destination = player.transform.position;
-
+    {         
+        agent.SetDestination(player.transform.position);
     }
-
-    //private void OnMouseEnter()
-    //{
-    //    this.GetComponent<EnemyFollow>().enabled = true;
-    //    audioSource.Stop();
-    //}
 }

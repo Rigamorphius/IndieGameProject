@@ -15,6 +15,7 @@ public class EnableEnemyFollowTrigger : MonoBehaviour
     {
         audioSource = GameObject.FindGameObjectWithTag("Sound").GetComponent<AudioSource>();
         audioSource2 = GameObject.FindGameObjectWithTag("Sound2").GetComponent<AudioSource>();
+        componentToEnable.enabled = false;
     }
 
     private void OnTriggerEnter(Collider other)

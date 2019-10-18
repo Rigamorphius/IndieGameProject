@@ -11,6 +11,12 @@ public class Door : InteractiveObject
     [SerializeField]
     private string lockedDisplayText = "Locked";
 
+    [SerializeField]
+    private AudioClip lockedAudioClip;
+
+    [SerializeField]
+    private AudioClip openAudioClip;
+
     public override string DisplayText => isLocked ? lockedDisplayText : base.displayText;
 
     private Animator animator;
@@ -30,11 +36,19 @@ public class Door : InteractiveObject
    
     public override void InteractWith()
     {
-        if (!isOpen && ! isLocked) {
-        base.InteractWith();
-        animator.SetBool("shouldOpen",true);
-        displayText = string.Empty;
-        isOpen = true;
-        }       
+        if (!isOpen)
+        {
+            if (!isLocked)
+            {
+                audioSource.clip = openAudioClip;
+                animator.SetBool("shouldOpen", true);
+                displayText = string.Empty;
+                isOpen = true;
+            }
+            else {
+                audioSource.clip = lockedAudioClip;
+            }
+        base.InteractWith();// This plays a sound effect
+        }    
     }
 }

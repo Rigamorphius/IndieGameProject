@@ -8,8 +8,7 @@ public class EnemyKill : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
-        SceneManager.LoadScene("Enemy Follow Test");
-
+        SceneManager.LoadScene(0);
         
     }
 }
