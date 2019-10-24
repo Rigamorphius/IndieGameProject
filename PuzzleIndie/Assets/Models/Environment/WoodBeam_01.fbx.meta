@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: blinn8
     second: {fileID: 2100000, guid: 3ee28c3d3e0605f47993ff455dceeff4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 3ee28c3d3e0605f47993ff455dceeff4, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
