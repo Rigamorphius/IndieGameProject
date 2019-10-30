@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EnemyKill : MonoBehaviour
+public class Level3 : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        
+            SceneManager.LoadScene(2);
+
     }
 }
