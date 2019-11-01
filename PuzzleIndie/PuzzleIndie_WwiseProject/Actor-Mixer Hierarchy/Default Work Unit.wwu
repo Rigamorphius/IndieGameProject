@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F378F9DD-94DD-432E-975A-B9EBDC12C574}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{F378F9DD-94DD-432E-975A-B9EBDC12C574}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="dd_sx_env_spikes_extend" ID="{843EA6F6-7E7C-4B93-A28B-303CF13C9590}" ShortID="492876024">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="dd_sx_env_spikes_extend" ID="{E3614019-8215-4A8E-A187-E17C6E7CC84D}" ShortID="630972208">
+							<Language>SFX</Language>
+							<AudioFile>dd_sx_env_spikes_extend.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="dd_sx_env_spikes_extend" ID="{E3614019-8215-4A8E-A187-E17C6E7CC84D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="dd_sx_env_spikes_retract" ID="{BC87AAAB-B8FA-49B9-84FF-C0A7BAC88614}" ShortID="95054657">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="dd_sx_env_spikes_retract" ID="{C2A8EE32-3F93-4F24-8784-85ED598CFB05}" ShortID="243570013">
+							<Language>SFX</Language>
+							<AudioFile>dd_sx_env_spikes_retract.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="dd_sx_env_spikes_retract" ID="{C2A8EE32-3F93-4F24-8784-85ED598CFB05}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="dd_sx_env_torch" ID="{BB941054-D4A6-4F5D-BF9B-D741C53AEA85}" ShortID="242799555">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="dd_sx_env_torch" ID="{FD741B0D-176B-47B2-861D-96722560831B}" ShortID="914041914">
+							<Language>SFX</Language>
+							<AudioFile>dd_sx_env_torch.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="dd_sx_env_torch" ID="{FD741B0D-176B-47B2-861D-96722560831B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="dd_sx_int_key_pickup" ID="{D960C394-F926-49D2-9730-93304B062F00}" ShortID="547186233">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="dd_sx_int_key_pickup" ID="{085FC37F-B8BE-4362-8B54-2D2C81A59263}" ShortID="448542487">
+							<Language>SFX</Language>
+							<AudioFile>dd_sx_int_key_pickup.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="dd_sx_int_key_pickup" ID="{085FC37F-B8BE-4362-8B54-2D2C81A59263}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="dd_sx_int_key_shimmer" ID="{5D579BAD-664E-4CC6-91B6-B70DC6531487}" ShortID="530847559">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="dd_sx_int_key_shimmer" ID="{19D8F82A-20B7-46F7-87E5-6DC73C1C4EF5}" ShortID="786097780">
+							<Language>SFX</Language>
+							<AudioFile>dd_sx_int_key_shimmer.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="dd_sx_int_key_shimmer" ID="{19D8F82A-20B7-46F7-87E5-6DC73C1C4EF5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="dd_sx_plr_spikes_impale" ID="{188CACD4-58B5-4A90-A2E2-2C09E9FD4A65}" ShortID="199578318">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="dd_sx_plr_spikes_impale" ID="{C583C279-3201-4ED7-BC48-C0DDD5C1AA24}" ShortID="122902189">
+							<Language>SFX</Language>
+							<AudioFile>dd_sx_plr_spikes_impale.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="dd_sx_plr_spikes_impale" ID="{C583C279-3201-4ED7-BC48-C0DDD5C1AA24}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Plr_Footstep_Base" ID="{38EC14C5-CBFE-46DD-976B-DEDC8BCF5EC7}" ShortID="787029495">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{4222ABA4-8F84-4F9C-BC97-424884A02C68}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="300"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="dd_sx_plr_footstep_01" ID="{5DC3C264-685D-422E-81B0-358EAB17C4B0}" ShortID="874042152">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dd_sx_plr_footstep_01" ID="{08B9B924-3807-46CF-9305-FB78268744A2}" ShortID="229589120">
+									<Language>SFX</Language>
+									<AudioFile>dd_sx_plr_footstep_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dd_sx_plr_footstep_01" ID="{08B9B924-3807-46CF-9305-FB78268744A2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dd_sx_plr_footstep_02" ID="{7D707944-4B96-42A0-BA14-6D98E4871186}" ShortID="818394058">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dd_sx_plr_footstep_02" ID="{97DA9A95-5650-480F-AE8E-1375A664467A}" ShortID="614904417">
+									<Language>SFX</Language>
+									<AudioFile>dd_sx_plr_footstep_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dd_sx_plr_footstep_02" ID="{97DA9A95-5650-480F-AE8E-1375A664467A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dd_sx_plr_footstep_03" ID="{F28207E0-C436-473E-BDFB-3E6A409EEAF3}" ShortID="83804223">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dd_sx_plr_footstep_03" ID="{E33F4D32-2C52-42D2-8C6D-BAEC11E8650C}" ShortID="570922707">
+									<Language>SFX</Language>
+									<AudioFile>dd_sx_plr_footstep_03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dd_sx_plr_footstep_03" ID="{E33F4D32-2C52-42D2-8C6D-BAEC11E8650C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dd_sx_plr_footstep_04" ID="{E501B329-C58D-4031-8DB0-31DDFAA01567}" ShortID="806034450">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dd_sx_plr_footstep_04" ID="{34683FEE-7E3E-4DD8-98C4-9578A819FBA0}" ShortID="851830602">
+									<Language>SFX</Language>
+									<AudioFile>dd_sx_plr_footstep_04.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dd_sx_plr_footstep_04" ID="{34683FEE-7E3E-4DD8-98C4-9578A819FBA0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dd_sx_plr_footstep_05" ID="{4B5F3BC5-E5FB-4263-9355-F477FEB34823}" ShortID="272700364">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dd_sx_plr_footstep_05" ID="{0E121CDA-7266-4429-A491-E714B2E92DAB}" ShortID="204342827">
+									<Language>SFX</Language>
+									<AudioFile>dd_sx_plr_footstep_05.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dd_sx_plr_footstep_05" ID="{0E121CDA-7266-4429-A491-E714B2E92DAB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Plr_Footstep_Layer" ID="{9715185B-A6F1-4BFF-97D7-0D57552D7AB4}" ShortID="309413735">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{CB64067D-E047-4F1A-8A99-E274016E8C7B}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="dd_sx_plr_footstep_layer_01" ID="{701AFFCB-E2BF-4F13-828F-B99FA3A08402}" ShortID="158502672">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dd_sx_plr_footstep_layer_01" ID="{EC58B4B2-D716-450B-8F63-9BE261B54431}" ShortID="183983348">
+									<Language>SFX</Language>
+									<AudioFile>dd_sx_plr_footstep_layer_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dd_sx_plr_footstep_layer_01" ID="{EC58B4B2-D716-450B-8F63-9BE261B54431}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dd_sx_plr_footstep_layer_02" ID="{180424B1-5BAD-404C-9EC7-0E5195DCA79E}" ShortID="685887611">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dd_sx_plr_footstep_layer_02" ID="{D30FFB62-C234-4DD1-9A8C-AE3963D40901}" ShortID="526247316">
+									<Language>SFX</Language>
+									<AudioFile>dd_sx_plr_footstep_layer_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dd_sx_plr_footstep_layer_02" ID="{D30FFB62-C234-4DD1-9A8C-AE3963D40901}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dd_sx_plr_footstep_layer_03" ID="{72E35570-74C2-4264-99FE-26F886BFE35B}" ShortID="411488498">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dd_sx_plr_footstep_layer_03" ID="{06E6515A-6BBF-472D-A542-3712250E71CF}" ShortID="447953123">
+									<Language>SFX</Language>
+									<AudioFile>dd_sx_plr_footstep_layer_03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dd_sx_plr_footstep_layer_03" ID="{06E6515A-6BBF-472D-A542-3712250E71CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dd_sx_plr_footstep_layer_04" ID="{A19A34B5-E9C1-4615-8536-E25922B00E70}" ShortID="924030827">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dd_sx_plr_footstep_layer_04" ID="{F928C2AE-78FC-427F-B13D-62E5E05F81E2}" ShortID="278551563">
+									<Language>SFX</Language>
+									<AudioFile>dd_sx_plr_footstep_layer_04.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dd_sx_plr_footstep_layer_04" ID="{F928C2AE-78FC-427F-B13D-62E5E05F81E2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dd_sx_plr_footstep_layer_05" ID="{EBC2E577-C441-4093-B2D2-C902F6D304A8}" ShortID="724785927">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dd_sx_plr_footstep_layer_05" ID="{535B31B4-9D57-4AAA-AB55-C89E7CC3E632}" ShortID="754048967">
+									<Language>SFX</Language>
+									<AudioFile>dd_sx_plr_footstep_layer_05.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dd_sx_plr_footstep_layer_05" ID="{535B31B4-9D57-4AAA-AB55-C89E7CC3E632}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Dd_L1wav" ID="{2873088C-3618-4A77-8B8D-BA4757EBF5B8}" ShortID="597951073">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dd_L1wav" ID="{21FF5B6B-D227-4FDC-8642-9F49170ABD57}" ShortID="221325138">
+							<Language>SFX</Language>
+							<AudioFile>Dd_L1wav.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dd_L1wav" ID="{21FF5B6B-D227-4FDC-8642-9F49170ABD57}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Dd_L2wav" ID="{A49B7096-5AA4-4AA7-8E88-967232747CDC}" ShortID="5266620">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dd_L2wav" ID="{40A5BEA1-C663-4D09-88A6-6CD4AF7AAA2D}" ShortID="646630763">
+							<Language>SFX</Language>
+							<AudioFile>Dd_L2wav.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dd_L2wav" ID="{40A5BEA1-C663-4D09-88A6-6CD4AF7AAA2D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Dd_L3wav" ID="{842AC267-9D81-4550-9DDC-F1F8B92B04C2}" ShortID="76488773">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dd_L3wav" ID="{3CF90BA5-6F39-43C5-AAB9-186B5A4A0053}" ShortID="958033364">
+							<Language>SFX</Language>
+							<AudioFile>Dd_L3wav.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dd_L3wav" ID="{3CF90BA5-6F39-43C5-AAB9-186B5A4A0053}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Demon Attack" ID="{60E131AD-D843-460C-A2BB-C791DD0735DF}" ShortID="885744926">
+					<PropertyList>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Demon Breathe" ID="{69FD06E5-CF68-4EB2-A46E-F7986674A972}" ShortID="375200297">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Demon Inhale" ID="{F27B1A1C-EC55-4B82-8203-19265642B758}" ShortID="432314100">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="dd_sx_npc_monster_inhale_1" ID="{F328BA5C-41BA-4363-BC6A-CA0C7B89B237}" ShortID="174123391">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="dd_sx_npc_monster_inhale_1" ID="{CF5A7E2D-770F-44EB-B952-AEEE81864402}" ShortID="1038372389">
+													<Language>SFX</Language>
+													<AudioFile>dd_sx_npc_monster_inhale_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="dd_sx_npc_monster_inhale_1" ID="{CF5A7E2D-770F-44EB-B952-AEEE81864402}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="dd_sx_npc_monster_inhale_2" ID="{71AA9B61-1C03-44A4-A185-0FFAC152390D}" ShortID="214564720">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="dd_sx_npc_monster_inhale_2" ID="{EBEF191D-1E49-443F-AEC5-8A7ABEDB28DE}" ShortID="563651316">
+													<Language>SFX</Language>
+													<AudioFile>dd_sx_npc_monster_inhale_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="dd_sx_npc_monster_inhale_2" ID="{EBEF191D-1E49-443F-AEC5-8A7ABEDB28DE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="dd_sx_npc_monster_inhale_3" ID="{98B5D9FE-5C7A-48B2-97F5-40719A116278}" ShortID="790491659">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="dd_sx_npc_monster_inhale_3" ID="{1F7A26AB-CE86-4AAD-8D3D-4B455914E765}" ShortID="891426886">
+													<Language>SFX</Language>
+													<AudioFile>dd_sx_npc_monster_inhale_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="dd_sx_npc_monster_inhale_3" ID="{1F7A26AB-CE86-4AAD-8D3D-4B455914E765}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Demon Exhale" ID="{8EB3E46B-1920-4A58-A42B-37A63FAE4B27}" ShortID="457166718">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="dd_sx_npc_monster_exhale_1" ID="{75E19A07-9F11-4D95-BFDE-A9960E73CAD2}" ShortID="55287466">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="dd_sx_npc_monster_exhale_1" ID="{D32AE017-1BC0-4BA7-93E7-1DF72C7E4EE2}" ShortID="191738815">
+													<Language>SFX</Language>
+													<AudioFile>dd_sx_npc_monster_exhale_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="dd_sx_npc_monster_exhale_1" ID="{D32AE017-1BC0-4BA7-93E7-1DF72C7E4EE2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="dd_sx_npc_monster_exhale_2" ID="{88A95F06-C4FA-4E46-A186-DE0A7364D884}" ShortID="318483378">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="dd_sx_npc_monster_exhale_2" ID="{872F6CB7-6261-4482-A5EC-2E91A05A40BA}" ShortID="366068682">
+													<Language>SFX</Language>
+													<AudioFile>dd_sx_npc_monster_exhale_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="dd_sx_npc_monster_exhale_2" ID="{872F6CB7-6261-4482-A5EC-2E91A05A40BA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="dd_sx_npc_monster_exhale_3" ID="{22E8990F-1629-4DC5-97DB-CDB1ABE91417}" ShortID="631033412">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="dd_sx_npc_monster_exhale_3" ID="{E9716DCF-8870-429B-82A5-D1B8DEF91254}" ShortID="56953371">
+													<Language>SFX</Language>
+													<AudioFile>dd_sx_npc_monster_exhale_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="dd_sx_npc_monster_exhale_3" ID="{E9716DCF-8870-429B-82A5-D1B8DEF91254}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Demon Inhale" ID="{F27B1A1C-EC55-4B82-8203-19265642B758}"/>
+								<ItemRef Name="Demon Exhale" ID="{8EB3E46B-1920-4A58-A42B-37A63FAE4B27}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<Sound Name="dd_sx_npc_demon_roar" ID="{2C15E538-6921-4838-8066-AAABA61036CB}" ShortID="520935245">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{03ED81DD-F9F9-4D2A-AAA0-16E3133515BA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E9828C4D-F768-4F26-9F30-944DA04DC407}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dd_sx_npc_demon_roar" ID="{FFA35820-92DF-4168-9912-5A442224234E}" ShortID="294681945">
+									<Language>SFX</Language>
+									<AudioFile>dd_sx_npc_demon_roar.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dd_sx_npc_demon_roar" ID="{FFA35820-92DF-4168-9912-5A442224234E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="dd_sx_npc_demon_roar" ID="{2C15E538-6921-4838-8066-AAABA61036CB}"/>
+						<ItemRef Name="Demon Breathe" ID="{69FD06E5-CF68-4EB2-A46E-F7986674A972}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D88C116D-B034-477A-9CEC-515BE5AF4ECC}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{D88C116D-B034-477A-9CEC-515BE5AF4ECC}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{16801AB1-FBE9-4E64-BA68-449717994231}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Demon_Attack" ID="{CD79DEE3-34DD-42C9-8194-56F15EF4B4B6}" WorkUnitID="{E1D8A70D-BEEF-4D0D-B0D1-ED2B64FEB620}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerDeath" ID="{24CA533A-2E76-45F9-938E-11DECCBDB746}" WorkUnitID="{E1D8A70D-BEEF-4D0D-B0D1-ED2B64FEB620}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="KeyPickup" ID="{67F7DF1D-3156-476E-A099-D4D0FAE23B85}" WorkUnitID="{E1D8A70D-BEEF-4D0D-B0D1-ED2B64FEB620}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Plr_Footstep" ID="{1FBA7B40-90E6-4929-B91D-EDF1A388EAD7}" WorkUnitID="{E1D8A70D-BEEF-4D0D-B0D1-ED2B64FEB620}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="KeyShimmer" ID="{8670C0C9-6820-4B26-A765-56F733ADE522}" WorkUnitID="{E1D8A70D-BEEF-4D0D-B0D1-ED2B64FEB620}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

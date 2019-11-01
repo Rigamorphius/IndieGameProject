@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E1D8A70D-BEEF-4D0D-B0D1-ED2B64FEB620}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{E1D8A70D-BEEF-4D0D-B0D1-ED2B64FEB620}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Plr_Footstep" ID="{1FBA7B40-90E6-4929-B91D-EDF1A388EAD7}">
+					<ChildrenList>
+						<Action Name="" ID="{FEED7E6B-B17C-4BC2-800F-081E48F70F39}" ShortID="155950519">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plr_Footstep_Base" ID="{38EC14C5-CBFE-46DD-976B-DEDC8BCF5EC7}" WorkUnitID="{F378F9DD-94DD-432E-975A-B9EBDC12C574}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{135FB10D-4466-46AA-84F1-D92C56641382}" ShortID="379031834">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plr_Footstep_Layer" ID="{9715185B-A6F1-4BFF-97D7-0D57552D7AB4}" WorkUnitID="{F378F9DD-94DD-432E-975A-B9EBDC12C574}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="KeyShimmer" ID="{8670C0C9-6820-4B26-A765-56F733ADE522}">
+					<ChildrenList>
+						<Action Name="" ID="{1C5AF756-8E16-43B8-B612-60D294D83982}" ShortID="501759984">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dd_sx_int_key_shimmer" ID="{5D579BAD-664E-4CC6-91B6-B70DC6531487}" WorkUnitID="{F378F9DD-94DD-432E-975A-B9EBDC12C574}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="KeyPickup" ID="{67F7DF1D-3156-476E-A099-D4D0FAE23B85}">
+					<ChildrenList>
+						<Action Name="" ID="{1CD13379-21B2-49E6-8130-3D38C3CA6ACE}" ShortID="637968246">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dd_sx_int_key_pickup" ID="{D960C394-F926-49D2-9730-93304B062F00}" WorkUnitID="{F378F9DD-94DD-432E-975A-B9EBDC12C574}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerDeath" ID="{24CA533A-2E76-45F9-938E-11DECCBDB746}">
+					<ChildrenList>
+						<Action Name="" ID="{E5D7E944-F9F0-4259-8D49-ABE252736174}" ShortID="543199603">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dd_sx_plr_spikes_impale" ID="{188CACD4-58B5-4A90-A2E2-2C09E9FD4A65}" WorkUnitID="{F378F9DD-94DD-432E-975A-B9EBDC12C574}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Demon_Attack" ID="{CD79DEE3-34DD-42C9-8194-56F15EF4B4B6}">
+					<ChildrenList>
+						<Action Name="" ID="{518A9EC2-7797-41AD-A7C2-5BB47C020EF6}" ShortID="1008916677">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Demon Attack" ID="{60E131AD-D843-460C-A2BB-C791DD0735DF}" WorkUnitID="{F378F9DD-94DD-432E-975A-B9EBDC12C574}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -14,12 +14,28 @@ public class EnemyFollow : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        audioSource = GameObject.FindGameObjectWithTag("Sound").GetComponent<AudioSource>();
+        //audioSource = GameObject.FindGameObjectWithTag("Sound").GetComponent<AudioSource>();
         agent = gameObject.GetComponent<NavMeshAgent>();
+
+        /* ckrueger audio*/
+        PlayDemonRoar();
+        PlayDemonBreathe();
     }
 
     void Update()
     {         
         agent.SetDestination(player.transform.position);
     }
+
+    /* ckrueger audio vvv */
+    private void PlayDemonBreathe()
+    {
+        AkSoundEngine.PostEvent("DemonBreathe", gameObject);
+    }
+
+    private void PlayDemonRoar()
+    {
+        AkSoundEngine.PostEvent("DemonRoar", gameObject);
+    }
+    /* ckrueger audio ^^^ */
 }

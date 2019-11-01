@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11523428db46483cb100bee5286c6af, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 750938c8258dee4b981c17f9170f318e
+    GuidInternal: 
+    m_lastTime: -8586292037834775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 4d8c82e968f7264f9f30944da04dc407
+    GuidInternal: 
+    m_lastTime: -8586292037844775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 6d118cd834b07a479cec515be5af4ecc
+    GuidInternal: 
+    m_lastTime: -8586289854504775808
+    List:
+    - name: Main
+      guid: b11a8016e9fb644eba68449717994231
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit/Main
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0da7d8e1efbe0d4db0d1ed2b64feb620
+    GuidInternal: 
+    m_lastTime: -8586289855134775808
+    List:
+    - name: Demon_Attack
+      guid: e3de79cddd34c942819456f15ef4b4b6
+      id: 1927135673
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Demon_Attack
+        ObjectType: 3
+      Path: Default Work Unit/Demon_Attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: KeyPickup
+      guid: 1ddff76756316e47a099d4d0fae23b85
+      id: 1616845350
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: KeyPickup
+        ObjectType: 3
+      Path: Default Work Unit/KeyPickup
+      maxAttenuation: 0
+      maxDuration: 0.270167
+      minDuration: 0.270167
+    - name: KeyShimmer
+      guid: c9c070862068264ba76556f733ade522
+      id: 3003063303
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: KeyShimmer
+        ObjectType: 3
+      Path: Default Work Unit/KeyShimmer
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayerDeath
+      guid: 3a53ca24762ef945938e11deccbdb746
+      id: 1656947812
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerDeath
+        ObjectType: 3
+      Path: Default Work Unit/PlayerDeath
+      maxAttenuation: 0
+      maxDuration: 2.419854
+      minDuration: 2.419854
+    - name: Plr_Footstep
+      guid: 407bba1fe6902949b91dedf1a388ead7
+      id: 1177753726
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Plr_Footstep
+        ObjectType: 3
+      Path: Default Work Unit/Plr_Footstep
+      maxAttenuation: 0
+      maxDuration: 0.509771
+      minDuration: 0.246742
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0cdd2b7b528b77488de8caa374908be5
+    GuidInternal: 
+    m_lastTime: -8586292037844775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f038e34d142cb44b872cce7c3055d215
+    GuidInternal: 
+    m_lastTime: -8586292037834775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: b568e90fc042c145a287d9d60fe5a580
+    GuidInternal: 
+    m_lastTime: -8586292037834775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 00ca3c46a733fd4c893cef8a5861dee0
+    GuidInternal: 
+    m_lastTime: -8586292037834775808
+    List: []
+  ExpandedItems:
+  - /PuzzleIndie_WwiseProject
+  - /PuzzleIndie_WwiseProject/Events
+  - /PuzzleIndie_WwiseProject/Events/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

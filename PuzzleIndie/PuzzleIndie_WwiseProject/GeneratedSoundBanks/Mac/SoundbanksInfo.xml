@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>/Users/colekrueger/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/GitHub/IndieGameProject/PuzzleIndie/PuzzleIndie_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/colekrueger/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/GitHub/IndieGameProject/PuzzleIndie/PuzzleIndie_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/colekrueger/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/GitHub/IndieGameProject/PuzzleIndie/PuzzleIndie_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/colekrueger/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/GitHub/IndieGameProject/PuzzleIndie/PuzzleIndie_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1927135673" Name="Demon_Attack" ObjectPath="\Events\Default Work Unit\Demon_Attack" DurationType="Infinite"/>
+				<Event Id="1616845350" Name="KeyPickup" ObjectPath="\Events\Default Work Unit\KeyPickup" DurationType="OneShot" DurationMin="0.270167" DurationMax="0.270167"/>
+				<Event Id="3003063303" Name="KeyShimmer" ObjectPath="\Events\Default Work Unit\KeyShimmer" DurationType="Infinite"/>
+				<Event Id="1656947812" Name="PlayerDeath" ObjectPath="\Events\Default Work Unit\PlayerDeath" DurationType="OneShot" DurationMin="2.419854" DurationMax="2.419854"/>
+				<Event Id="1177753726" Name="Plr_Footstep" ObjectPath="\Events\Default Work Unit\Plr_Footstep" DurationType="OneShot" DurationMin="0.246742" DurationMax="0.509771"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="56953371" Language="SFX">
+					<ShortName>dd_sx_npc_monster_exhale_3.wav</ShortName>
+					<Path>SFX/dd_sx_npc_monster_exhale_3_10C4C929.wem</Path>
+				</File>
+				<File Id="122902189" Language="SFX">
+					<ShortName>dd_sx_plr_spikes_impale.wav</ShortName>
+					<Path>SFX/dd_sx_plr_spikes_impale_10C4C929.wem</Path>
+				</File>
+				<File Id="183983348" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_layer_01.wav</ShortName>
+					<Path>SFX/dd_sx_plr_footstep_layer_01_10C4C929.wem</Path>
+				</File>
+				<File Id="191738815" Language="SFX">
+					<ShortName>dd_sx_npc_monster_exhale_1.wav</ShortName>
+					<Path>SFX/dd_sx_npc_monster_exhale_1_10C4C929.wem</Path>
+				</File>
+				<File Id="204342827" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_05.wav</ShortName>
+					<Path>SFX/dd_sx_plr_footstep_05_10C4C929.wem</Path>
+				</File>
+				<File Id="229589120" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_01.wav</ShortName>
+					<Path>SFX/dd_sx_plr_footstep_01_10C4C929.wem</Path>
+				</File>
+				<File Id="278551563" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_layer_04.wav</ShortName>
+					<Path>SFX/dd_sx_plr_footstep_layer_04_10C4C929.wem</Path>
+				</File>
+				<File Id="294681945" Language="SFX">
+					<ShortName>dd_sx_npc_demon_roar.wav</ShortName>
+					<Path>SFX/dd_sx_npc_demon_roar_10C4C929.wem</Path>
+				</File>
+				<File Id="366068682" Language="SFX">
+					<ShortName>dd_sx_npc_monster_exhale_2.wav</ShortName>
+					<Path>SFX/dd_sx_npc_monster_exhale_2_10C4C929.wem</Path>
+				</File>
+				<File Id="447953123" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_layer_03.wav</ShortName>
+					<Path>SFX/dd_sx_plr_footstep_layer_03_10C4C929.wem</Path>
+				</File>
+				<File Id="448542487" Language="SFX">
+					<ShortName>dd_sx_int_key_pickup.wav</ShortName>
+					<Path>SFX/dd_sx_int_key_pickup_10C4C929.wem</Path>
+				</File>
+				<File Id="526247316" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_layer_02.wav</ShortName>
+					<Path>SFX/dd_sx_plr_footstep_layer_02_10C4C929.wem</Path>
+				</File>
+				<File Id="563651316" Language="SFX">
+					<ShortName>dd_sx_npc_monster_inhale_2.wav</ShortName>
+					<Path>SFX/dd_sx_npc_monster_inhale_2_10C4C929.wem</Path>
+				</File>
+				<File Id="570922707" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_03.wav</ShortName>
+					<Path>SFX/dd_sx_plr_footstep_03_10C4C929.wem</Path>
+				</File>
+				<File Id="614904417" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_02.wav</ShortName>
+					<Path>SFX/dd_sx_plr_footstep_02_10C4C929.wem</Path>
+				</File>
+				<File Id="754048967" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_layer_05.wav</ShortName>
+					<Path>SFX/dd_sx_plr_footstep_layer_05_10C4C929.wem</Path>
+				</File>
+				<File Id="786097780" Language="SFX">
+					<ShortName>dd_sx_int_key_shimmer.wav</ShortName>
+					<Path>SFX/dd_sx_int_key_shimmer_D79FB2B7.wem</Path>
+				</File>
+				<File Id="851830602" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_04.wav</ShortName>
+					<Path>SFX/dd_sx_plr_footstep_04_10C4C929.wem</Path>
+				</File>
+				<File Id="891426886" Language="SFX">
+					<ShortName>dd_sx_npc_monster_inhale_3.wav</ShortName>
+					<Path>SFX/dd_sx_npc_monster_inhale_3_10C4C929.wem</Path>
+				</File>
+				<File Id="1038372389" Language="SFX">
+					<ShortName>dd_sx_npc_monster_inhale_1.wav</ShortName>
+					<Path>SFX/dd_sx_npc_monster_inhale_1_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

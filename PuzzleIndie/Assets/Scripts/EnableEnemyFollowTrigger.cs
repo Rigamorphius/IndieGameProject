@@ -7,14 +7,19 @@ public class EnableEnemyFollowTrigger : MonoBehaviour
     [SerializeField]
     public EnemyFollow componentToEnable;
 
-    private AudioSource audioSource;
-    private AudioSource audioSource2;
+    //private AudioSource audioSource;
+    //private AudioSource audioSource2;
+
     bool used = true;
 
     private void Start()
     {
-        audioSource = GameObject.FindGameObjectWithTag("Sound").GetComponent<AudioSource>();
-        audioSource2 = GameObject.FindGameObjectWithTag("Sound2").GetComponent<AudioSource>();
+        /* ckrueger audio */
+        //commented these out since I do not use them
+
+        //audioSource = GameObject.FindGameObjectWithTag("Sound").GetComponent<AudioSource>();
+        //audioSource2 = GameObject.FindGameObjectWithTag("Sound2").GetComponent<AudioSource>();
+
         componentToEnable.enabled = false;
     }
 
@@ -23,9 +28,18 @@ public class EnableEnemyFollowTrigger : MonoBehaviour
         
         if (used == true)
         {      componentToEnable.enabled = true;
-            audioSource.Stop();
-            audioSource2.Play();
+
+            /* ckrueger audio*/
+            PlayDemonAttack();
+
             used = false;
         }
     }
+
+    /* ckrueger audio vvv */
+    private void PlayDemonAttack()
+    {
+        AkSoundEngine.PostEvent("Demon_Attack", gameObject);
+    }
+    /* ckrueger audio ^^^ */
 }

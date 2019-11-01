@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1177753726	Plr_Footstep			\Default Work Unit\Plr_Footstep	
+	1616845350	KeyPickup			\Default Work Unit\KeyPickup	
+	1656947812	PlayerDeath			\Default Work Unit\PlayerDeath	
+	1927135673	Demon_Attack			\Default Work Unit\Demon_Attack	
+	3003063303	KeyShimmer			\Default Work Unit\KeyShimmer	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	56953371	dd_sx_npc_monster_exhale_3	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_npc_monster_exhale_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Demon Attack\Demon Breathe\Demon Exhale\dd_sx_npc_monster_exhale_3		252292
+	122902189	dd_sx_plr_spikes_impale	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_plr_spikes_impale_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dd_sx_plr_spikes_impale		464676
+	183983348	dd_sx_plr_footstep_layer_01	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_plr_footstep_layer_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr_Footstep_Layer\dd_sx_plr_footstep_layer_01		85288
+	191738815	dd_sx_npc_monster_exhale_1	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_npc_monster_exhale_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Demon Attack\Demon Breathe\Demon Exhale\dd_sx_npc_monster_exhale_1		176928
+	204342827	dd_sx_plr_footstep_05	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_plr_footstep_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr_Footstep_Base\dd_sx_plr_footstep_05		44036
+	229589120	dd_sx_plr_footstep_01	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_plr_footstep_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr_Footstep_Base\dd_sx_plr_footstep_01		41628
+	278551563	dd_sx_plr_footstep_layer_04	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_plr_footstep_layer_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr_Footstep_Layer\dd_sx_plr_footstep_layer_04		88628
+	294681945	dd_sx_npc_demon_roar	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_npc_demon_roar_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Demon Attack\dd_sx_npc_demon_roar		380380
+	366068682	dd_sx_npc_monster_exhale_2	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_npc_monster_exhale_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Demon Attack\Demon Breathe\Demon Exhale\dd_sx_npc_monster_exhale_2		204732
+	447953123	dd_sx_plr_footstep_layer_03	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_plr_footstep_layer_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr_Footstep_Layer\dd_sx_plr_footstep_layer_03		97940
+	448542487	dd_sx_int_key_pickup	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_int_key_pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dd_sx_int_key_pickup		51936
+	526247316	dd_sx_plr_footstep_layer_02	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_plr_footstep_layer_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr_Footstep_Layer\dd_sx_plr_footstep_layer_02		53240
+	563651316	dd_sx_npc_monster_inhale_2	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_npc_monster_inhale_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Demon Attack\Demon Breathe\Demon Inhale\dd_sx_npc_monster_inhale_2		170420
+	570922707	dd_sx_plr_footstep_03	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_plr_footstep_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr_Footstep_Base\dd_sx_plr_footstep_03		34128
+	614904417	dd_sx_plr_footstep_02	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_plr_footstep_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr_Footstep_Base\dd_sx_plr_footstep_02		33028
+	754048967	dd_sx_plr_footstep_layer_05	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_plr_footstep_layer_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr_Footstep_Layer\dd_sx_plr_footstep_layer_05		93356
+	786097780	dd_sx_int_key_shimmer	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_int_key_shimmer_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\dd_sx_int_key_shimmer		4763852
+	851830602	dd_sx_plr_footstep_04	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_plr_footstep_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr_Footstep_Base\dd_sx_plr_footstep_04		38216
+	891426886	dd_sx_npc_monster_inhale_3	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_npc_monster_inhale_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Demon Attack\Demon Breathe\Demon Inhale\dd_sx_npc_monster_inhale_3		196996
+	1038372389	dd_sx_npc_monster_inhale_1	Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\dd_sx_npc_monster_inhale_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Demon Attack\Demon Breathe\Demon Inhale\dd_sx_npc_monster_inhale_1		191352
+
