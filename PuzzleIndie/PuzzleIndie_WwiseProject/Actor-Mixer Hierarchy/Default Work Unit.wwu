@@ -84,6 +84,7 @@
 				</Sound>
 				<Sound Name="dd_sx_int_key_shimmer" ID="{5D579BAD-664E-4CC6-91B6-B70DC6531487}" ShortID="530847559">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>

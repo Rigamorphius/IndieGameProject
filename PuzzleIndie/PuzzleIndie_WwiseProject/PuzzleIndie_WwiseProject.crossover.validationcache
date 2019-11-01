@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="94">
-	<ValidationCacheItem File="Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1572621372" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1572625129" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1572403101" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1572403101" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1572403684" DateHigh="0"/>
@@ -17,7 +17,7 @@
 	<ValidationCacheItem File="Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1572403102" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1572403102" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\PuzzleIndie_WwiseProject.crossover.wsettings" DateLow="1572403695" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\PuzzleIndie_WwiseProject.wproj" DateLow="1572403101" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\PuzzleIndie_WwiseProject.wproj" DateLow="1572624108" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1572403102" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Queries\Factory Queries.wwu" DateLow="1572403102" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1572621435" DateHigh="0"/>

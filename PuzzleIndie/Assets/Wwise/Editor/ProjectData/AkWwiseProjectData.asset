@@ -82,7 +82,7 @@ MonoBehaviour:
       - ElementName: KeyShimmer
         ObjectType: 3
       Path: Default Work Unit/KeyShimmer
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
     - name: PlayerDeath
