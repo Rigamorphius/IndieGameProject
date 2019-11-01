@@ -7,7 +7,7 @@ public class Level2 : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
 
     }
 }

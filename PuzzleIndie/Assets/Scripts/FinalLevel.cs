@@ -8,7 +8,7 @@ public class FinalLevel : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
 
     }
 }
