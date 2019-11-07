@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayerFootstep" ID="{E221540A-6952-4DA2-BECD-D6BE2AD732B1}">
+					<ChildrenList>
+						<Action Name="" ID="{56C79C5D-D3FC-497F-9202-9FC08D1ED7D3}" ShortID="550249092">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plr Footstep Layer" ID="{92ADF4FE-00F4-447A-A371-D89BA9019A06}" WorkUnitID="{A6D9A772-6FB0-4956-9D07-5F7891729987}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5FD87CEF-427B-49B7-ABC9-28252CD2763F}" ShortID="688361336">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plr Footstep Base" ID="{9526EB9C-C0E5-48A3-B743-9B3C3672B4B6}" WorkUnitID="{A6D9A772-6FB0-4956-9D07-5F7891729987}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Torch" ID="{00B12155-816A-4485-BB65-E66C99FF8567}">
+					<ChildrenList>
+						<Action Name="" ID="{C35A9581-B3F7-41E9-9002-EFA30E85DB14}" ShortID="516948138">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dd_sx_env_torch" ID="{FD908E03-6BCE-472D-900C-34B7681C308B}" WorkUnitID="{A6D9A772-6FB0-4956-9D07-5F7891729987}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DemonFloat" ID="{4FD50357-7AD3-467C-86E9-8300E1ADB8FA}">
+					<ChildrenList>
+						<Action Name="" ID="{FF7B7FCF-6156-4A7F-B44A-2EC0AAFA64A2}" ShortID="1014761820">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dd_sx_npc_demon_float" ID="{7B16C191-AE10-499E-8713-08279A2FD2A9}" WorkUnitID="{A6D9A772-6FB0-4956-9D07-5F7891729987}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
