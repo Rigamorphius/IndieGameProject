@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab28c69656974a64a91729960ea4c731, type: 3}
+  m_Name: 4FD50357-7AD3-467C-86E9-8300E1ADB8FA
+  m_EditorClassIdentifier: 
+  objectName: DemonFloat
+  id: 657200748
+  guid: 4FD50357-7AD3-467C-86E9-8300E1ADB8FA

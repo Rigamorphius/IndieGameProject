@@ -12,14 +12,146 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f3fd9fc5d028c641acd7d40a524dc83, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 926a5662ca170a49bfe674ad5c7fe330
+    GuidInternal: 
+    m_lastTime: -8586285032165258791
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: da15f88425faa843a9039fcdc0c56ac4
+    GuidInternal: 
+    m_lastTime: -8586285032165918966
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: b3109ec293a7b3448c638e814dc46908
+    GuidInternal: 
+    m_lastTime: -8586284944976592359
+    List:
+    - name: Main
+      guid: 716f31624bf2bd4685d431c1fb989de9
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: cba7b37f528be24e947a62babf1705c8
+    GuidInternal: 
+    m_lastTime: -8586284944976502334
+    List:
+    - name: DemonFloat
+      guid: 5703d54fd37a7c4686e98300e1adb8fa
+      id: 657200748
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DemonFloat
+        ObjectType: 3
+      Path: Default Work Unit\DemonFloat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: DoorLocked
+      guid: 423de2757f85eb4c86dba0f416bfc517
+      id: 116600283
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DoorLocked
+        ObjectType: 3
+      Path: Default Work Unit\DoorLocked
+      maxAttenuation: 0
+      maxDuration: 0.245125
+      minDuration: 0.231367
+    - name: KeyShimmer
+      guid: b3fde6bc27428e4a80e801f2bbbe5767
+      id: 3003063303
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: KeyShimmer
+        ObjectType: 3
+      Path: Default Work Unit\KeyShimmer
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayerDie
+      guid: 5ea6ba096397074b8d74af039b38228f
+      id: 3966601280
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerDie
+        ObjectType: 3
+      Path: Default Work Unit\PlayerDie
+      maxAttenuation: 0
+      maxDuration: 4.545208
+      minDuration: 4.545208
+    - name: PlayerFootstep
+      guid: 0a5421e25269a24dbecdd6be2ad732b1
+      id: 3542290436
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerFootstep
+        ObjectType: 3
+      Path: Default Work Unit\PlayerFootstep
+      maxAttenuation: 0
+      maxDuration: 0.509771
+      minDuration: 0.276958
+    - name: Torch
+      guid: 5521b1006a818544bb65e66c99ff8567
+      id: 1904864137
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Torch
+        ObjectType: 3
+      Path: Default Work Unit\Torch
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: bd912a392349e94fb322988be7f6a9c4
+    GuidInternal: 
+    m_lastTime: -8586285032166008994
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: be47669444e3fe4b85854da3c994b944
+    GuidInternal: 
+    m_lastTime: -8586285032165358842
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 629a9988a9a02a479a086a717e5858ac
+    GuidInternal: 
+    m_lastTime: -8586285032165398855
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: adbfc2edddcdc24a87a23e9faef8b1ba
+    GuidInternal: 
+    m_lastTime: -8586285032165448866
+    List: []
+  ExpandedItems:
+  - /PuzzleIndie_WwiseProject
+  - /PuzzleIndie_WwiseProject/Events
+  - /PuzzleIndie_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="94">
-	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1573112425" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1573106332" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1573104158" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1573103668" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Effects\Factory Effects.wwu" DateLow="1573103668" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Events\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Events\Default Work Unit.wwu" DateLow="1573112387" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\PuzzleIndie_WwiseProject.wproj" DateLow="1573103668" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\PuzzleIndie_WwiseProject.wproj" DateLow="1573106400" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Queries\Factory Queries.wwu" DateLow="1573103668" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1573112387" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\States\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1573103668" DateHigh="0"/>

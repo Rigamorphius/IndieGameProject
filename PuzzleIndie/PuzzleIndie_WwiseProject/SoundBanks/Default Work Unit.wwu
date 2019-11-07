@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C29E10B3-A793-44B3-8C63-8E814DC46908}" SchemaVersion="94">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{C29E10B3-A793-44B3-8C63-8E814DC46908}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C29E10B3-A793-44B3-8C63-8E814DC46908}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{62316F71-F24B-46BD-85D4-31C1FB989DE9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Torch" ID="{00B12155-816A-4485-BB65-E66C99FF8567}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DemonFloat" ID="{4FD50357-7AD3-467C-86E9-8300E1ADB8FA}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="KeyShimmer" ID="{BCE6FDB3-4227-4A8E-80E8-01F2BBBE5767}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerDie" ID="{09BAA65E-9763-4B07-8D74-AF039B38228F}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DoorLocked" ID="{75E23D42-857F-4CEB-86DB-A0F416BFC517}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerFootstep" ID="{E221540A-6952-4DA2-BECD-D6BE2AD732B1}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

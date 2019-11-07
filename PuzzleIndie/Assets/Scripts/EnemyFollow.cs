@@ -16,10 +16,19 @@ public class EnemyFollow : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         audioSource = GameObject.FindGameObjectWithTag("Sound").GetComponent<AudioSource>();
         agent = gameObject.GetComponent<NavMeshAgent>();
+
+        /* ckrueger audio */
+        PlaySoundDemonMovement();
     }
 
     void Update()
     {         
         agent.SetDestination(player.transform.position);
+    }
+
+    /* ckrueger audio */
+    void PlaySoundDemonMovement()
+    {
+        AkSoundEngine.PostEvent("DemonFloat", gameObject);
     }
 }

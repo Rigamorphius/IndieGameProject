@@ -35,9 +35,45 @@
 				<Event Name="DemonFloat" ID="{4FD50357-7AD3-467C-86E9-8300E1ADB8FA}">
 					<ChildrenList>
 						<Action Name="" ID="{FF7B7FCF-6156-4A7F-B44A-2EC0AAFA64A2}" ShortID="1014761820">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="dd_sx_npc_demon_float" ID="{7B16C191-AE10-499E-8713-08279A2FD2A9}" WorkUnitID="{A6D9A772-6FB0-4956-9D07-5F7891729987}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerDie" ID="{09BAA65E-9763-4B07-8D74-AF039B38228F}">
+					<ChildrenList>
+						<Action Name="" ID="{5FA5202F-07C4-4BEF-A258-BE58077A74F7}" ShortID="628820610">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dd_sx_player_death" ID="{398C793D-622B-472C-A674-8C606708D214}" WorkUnitID="{A6D9A772-6FB0-4956-9D07-5F7891729987}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DoorLocked" ID="{75E23D42-857F-4CEB-86DB-A0F416BFC517}">
+					<ChildrenList>
+						<Action Name="" ID="{B63DBAEF-1888-49DB-B391-FBD68438948E}" ShortID="305698032">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dd_sx_int_door_locked" ID="{7B4DF7B1-4F19-46A6-9E83-3ED8E057BDE9}" WorkUnitID="{A6D9A772-6FB0-4956-9D07-5F7891729987}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="KeyShimmer" ID="{BCE6FDB3-4227-4A8E-80E8-01F2BBBE5767}">
+					<ChildrenList>
+						<Action Name="" ID="{A4191D93-81C8-44B3-850C-45F818CDBCC9}" ShortID="805424902">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dd_sx_int_key_shimmer" ID="{E2BFFBE0-F7F9-43D1-813F-F23F2EADCBBA}" WorkUnitID="{A6D9A772-6FB0-4956-9D07-5F7891729987}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

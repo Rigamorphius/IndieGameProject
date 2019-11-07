@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="657200748" Name="DemonFloat" ObjectPath="\Events\Default Work Unit\DemonFloat" DurationType="Infinite"/>
+				<Event Id="116600283" Name="DoorLocked" ObjectPath="\Events\Default Work Unit\DoorLocked" DurationType="OneShot" DurationMin="0.231367" DurationMax="0.245125"/>
+				<Event Id="3003063303" Name="KeyShimmer" ObjectPath="\Events\Default Work Unit\KeyShimmer" DurationType="Infinite"/>
+				<Event Id="3966601280" Name="PlayerDie" ObjectPath="\Events\Default Work Unit\PlayerDie" DurationType="OneShot" DurationMin="4.545208" DurationMax="4.545208"/>
+				<Event Id="3542290436" Name="PlayerFootstep" ObjectPath="\Events\Default Work Unit\PlayerFootstep" DurationType="OneShot" DurationMin="0.276958" DurationMax="0.509771"/>
+				<Event Id="1904864137" Name="Torch" ObjectPath="\Events\Default Work Unit\Torch" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="67687956" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_layer_03.wav</ShortName>
+					<Path>SFX\dd_sx_plr_footstep_layer_03_10C4C929.wem</Path>
+				</File>
+				<File Id="110167565" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_layer_02.wav</ShortName>
+					<Path>SFX\dd_sx_plr_footstep_layer_02_10C4C929.wem</Path>
+				</File>
+				<File Id="236351720" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_03.wav</ShortName>
+					<Path>SFX\dd_sx_plr_footstep_03_10C4C929.wem</Path>
+				</File>
+				<File Id="481661074" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_layer_04.wav</ShortName>
+					<Path>SFX\dd_sx_plr_footstep_layer_04_10C4C929.wem</Path>
+				</File>
+				<File Id="513675312" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_02.wav</ShortName>
+					<Path>SFX\dd_sx_plr_footstep_02_10C4C929.wem</Path>
+				</File>
+				<File Id="544169381" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_04.wav</ShortName>
+					<Path>SFX\dd_sx_plr_footstep_04_10C4C929.wem</Path>
+				</File>
+				<File Id="551247200" Language="SFX">
+					<ShortName>dd_sx_player_death.wav</ShortName>
+					<Path>SFX\dd_sx_player_death_10C4C929.wem</Path>
+				</File>
+				<File Id="574927279" Language="SFX">
+					<ShortName>dd_sx_int_door_locked.wav</ShortName>
+					<Path>SFX\dd_sx_int_door_locked_10C4C929.wem</Path>
+				</File>
+				<File Id="636019697" Language="SFX">
+					<ShortName>dd_sx_int_key_shimmer.wav</ShortName>
+					<Path>SFX\dd_sx_int_key_shimmer_D79FB2B7.wem</Path>
+				</File>
+				<File Id="679689961" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_01.wav</ShortName>
+					<Path>SFX\dd_sx_plr_footstep_01_10C4C929.wem</Path>
+				</File>
+				<File Id="779440756" Language="SFX">
+					<ShortName>dd_sx_npc_demon_float.wav</ShortName>
+					<Path>SFX\dd_sx_npc_demon_float_D79FB2B7.wem</Path>
+				</File>
+				<File Id="790887388" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_layer_05.wav</ShortName>
+					<Path>SFX\dd_sx_plr_footstep_layer_05_10C4C929.wem</Path>
+				</File>
+				<File Id="857127325" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_05.wav</ShortName>
+					<Path>SFX\dd_sx_plr_footstep_05_10C4C929.wem</Path>
+				</File>
+				<File Id="912716362" Language="SFX">
+					<ShortName>dd_sx_env_torch.wav</ShortName>
+					<Path>SFX\dd_sx_env_torch_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1033812041" Language="SFX">
+					<ShortName>dd_sx_plr_footstep_layer_01.wav</ShortName>
+					<Path>SFX\dd_sx_plr_footstep_layer_01_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
