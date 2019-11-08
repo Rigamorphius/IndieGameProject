@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID DEMONFLOAT = 657200748U;
         static const AkUniqueID DOORLOCKED = 116600283U;
+        static const AkUniqueID DOOROPEN = 1404805401U;
         static const AkUniqueID KEYPICKUP = 1616845350U;
         static const AkUniqueID KEYSHIMMER = 3003063303U;
         static const AkUniqueID PLAYERDIE = 3966601280U;

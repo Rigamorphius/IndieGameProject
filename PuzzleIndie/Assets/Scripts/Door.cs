@@ -91,6 +91,9 @@ public class Door : InteractiveObject
         isLocked = false;
         if (key != null && consumesKey)
         {
+            /* ckrueger audio */
+            PlaySoundDoorOpen();
+
             PlayerInventory.InventoryObjects.Remove(key);
         }
     }
@@ -99,5 +102,9 @@ public class Door : InteractiveObject
     void PlaySoundDoorLocked()
     {
         AkSoundEngine.PostEvent("DoorLocked", gameObject);
+    }
+    void PlaySoundDoorOpen()
+    {
+        AkSoundEngine.PostEvent("DoorOpen", gameObject);
     }
 }

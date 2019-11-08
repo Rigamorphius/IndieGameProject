@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: b3109ec293a7b3448c638e814dc46908
     GuidInternal: 
-    m_lastTime: -8586284187839376737
+    m_lastTime: -8586284094765111481
     List:
     - name: Main
       guid: 716f31624bf2bd4685d431c1fb989de9
@@ -42,12 +42,30 @@ MonoBehaviour:
       - ElementName: Main
         ObjectType: 7
       Path: Default Work Unit\Main
+    - name: Music_1
+      guid: 7058731e94c1c94091bc20cadb4e6c3a
+      id: 508837814
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_1
+        ObjectType: 7
+      Path: Default Work Unit\Music_1
+    - name: Music_2
+      guid: 69584f20b20f9240833464091ecfb006
+      id: 508837813
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_2
+        ObjectType: 7
+      Path: Default Work Unit\Music_2
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: cba7b37f528be24e947a62babf1705c8
     GuidInternal: 
-    m_lastTime: -8586284188976573662
+    m_lastTime: -8586284094764521344
     List:
     - name: DemonFloat
       guid: 5703d54fd37a7c4686e98300e1adb8fa
@@ -73,6 +91,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.245125
       minDuration: 0.231367
+    - name: DoorOpen
+      guid: 8adfe3d3ef453840a44d582d231f77c6
+      id: 1404805401
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DoorOpen
+        ObjectType: 3
+      Path: Default Work Unit\DoorOpen
+      maxAttenuation: 0
+      maxDuration: 2.624603
+      minDuration: 2.624603
     - name: KeyPickup
       guid: 38345a8ccac1f440b837b5b525cf2721
       id: 1616845350
@@ -211,7 +241,5 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /PuzzleIndie_WwiseProject
-  - /PuzzleIndie_WwiseProject/Events
-  - /PuzzleIndie_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

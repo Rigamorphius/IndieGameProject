@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	116600283	DoorLocked			\Default Work Unit\DoorLocked	
 	657200748	DemonFloat			\Default Work Unit\DemonFloat	
+	1404805401	DoorOpen			\Default Work Unit\DoorOpen	
 	1616845350	KeyPickup			\Default Work Unit\KeyPickup	
 	1904864137	Torch			\Default Work Unit\Torch	
 	2964613972	StopDemonFloat			\Default Work Unit\StopDemonFloat	
@@ -12,6 +13,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	67687956	dd_sx_plr_footstep_layer_03	C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Windows\SFX\dd_sx_plr_footstep_layer_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr Footstep Layer\dd_sx_plr_footstep_layer_03		97940
 	110167565	dd_sx_plr_footstep_layer_02	C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Windows\SFX\dd_sx_plr_footstep_layer_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr Footstep Layer\dd_sx_plr_footstep_layer_02		53240
 	236351720	dd_sx_plr_footstep_03	C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Windows\SFX\dd_sx_plr_footstep_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr Footstep Base\dd_sx_plr_footstep_03		34128
+	302825584	dd_sx_int_door_open	C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Windows\SFX\dd_sx_int_door_open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dd_sx_int_door_open		463044
 	481661074	dd_sx_plr_footstep_layer_04	C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Windows\SFX\dd_sx_plr_footstep_layer_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr Footstep Layer\dd_sx_plr_footstep_layer_04		88628
 	513675312	dd_sx_plr_footstep_02	C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Windows\SFX\dd_sx_plr_footstep_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr Footstep Base\dd_sx_plr_footstep_02		33028
 	544169381	dd_sx_plr_footstep_04	C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Windows\SFX\dd_sx_plr_footstep_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plr Footstep Base\dd_sx_plr_footstep_04		38216

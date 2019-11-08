@@ -95,6 +95,13 @@
 							<Language>SFX</Language>
 							<AudioFile>dd_sx_int_key_pickup.wav</AudioFile>
 						</AudioFileSource>
+						<AudioFileSource Name="dd_sx_int_door_open" ID="{86913E88-5A18-4714-A343-EA3910B2857B}" ShortID="969776447">
+							<Language>SFX</Language>
+							<AudioFile>dd_sx_int_door_open.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="302825584"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="dd_sx_int_key_pickup" ID="{1F5743D9-C4AC-4059-B4D6-A3817C2365FD}" Platform="Linked"/>
@@ -259,6 +266,10 @@
 						<AudioFileSource Name="dd_sx_player_death" ID="{24F88156-ACC7-4467-A9D1-C5465EBF35B6}" ShortID="551247200">
 							<Language>SFX</Language>
 							<AudioFile>dd_sx_player_death.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="dd_sx_int_door_open" ID="{74B42E97-3A90-4000-8C5E-FF9DEEA4067D}" ShortID="302825584">
+							<Language>SFX</Language>
+							<AudioFile>dd_sx_int_door_open.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
@@ -510,6 +521,28 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="dd_sx_int_door_locked" ID="{559FDCB1-5B79-4987-87F8-9A87FE8767D8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="dd_sx_int_door_open" ID="{70AF98C3-D90E-4752-A5A6-FFBFCBDE772D}" ShortID="708829232">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5660EAC8-ABF3-4189-AA47-0F85B4BCADB7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{84F815DA-FA25-43A8-A903-9FCDC0C56AC4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="dd_sx_int_door_open" ID="{BB66E202-A84F-4DDB-80EE-21B151171285}" ShortID="674302256">
+							<Language>SFX</Language>
+							<AudioFile>dd_sx_int_door_open.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="302825584"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="dd_sx_int_door_open" ID="{BB66E202-A84F-4DDB-80EE-21B151171285}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

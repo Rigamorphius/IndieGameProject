@@ -271,12 +271,17 @@ PrefabInstance:
     - target: {fileID: -1817234970136353637, guid: c3474660a4577a748886c4fdb8bb8804,
         type: 3}
       propertyPath: m_positionOffsetData.positionOffset.x
-      value: 0.000000018626451
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1817234970136353637, guid: c3474660a4577a748886c4fdb8bb8804,
         type: 3}
       propertyPath: m_positionOffsetData.positionOffset.z
-      value: -0.12129785
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476992611321895461, guid: c3474660a4577a748886c4fdb8bb8804,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3474660a4577a748886c4fdb8bb8804, type: 3}
@@ -35655,18 +35660,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d15cfe215b01654f88121b4b8fe3d7b, type: 3}
---- !u!114 &849922818 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2476992611321895461, guid: c3474660a4577a748886c4fdb8bb8804,
-    type: 3}
-  m_PrefabInstance: {fileID: 16195940}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95cd62d4933bba041a6dda22aeba3579, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &852027172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95211,7 +95204,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-91902
+  m_Name: pb_Mesh-6448
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -96500,7 +96493,7 @@ PrefabInstance:
         type: 3}
       propertyPath: componentToEnable
       value: 
-      objectReference: {fileID: 849922818}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6ffb56c976f5d74da42f20469ea35c9, type: 3}
 --- !u!1001 &8646696001883343230

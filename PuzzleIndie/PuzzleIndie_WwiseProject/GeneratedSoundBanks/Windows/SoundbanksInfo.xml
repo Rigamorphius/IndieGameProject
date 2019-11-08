@@ -56,6 +56,7 @@
 			<IncludedEvents>
 				<Event Id="657200748" Name="DemonFloat" ObjectPath="\Events\Default Work Unit\DemonFloat" DurationType="Infinite"/>
 				<Event Id="116600283" Name="DoorLocked" ObjectPath="\Events\Default Work Unit\DoorLocked" DurationType="OneShot" DurationMin="0.231367" DurationMax="0.245125"/>
+				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\DoorOpen" DurationType="OneShot" DurationMin="2.624603" DurationMax="2.624603"/>
 				<Event Id="1616845350" Name="KeyPickup" ObjectPath="\Events\Default Work Unit\KeyPickup" DurationType="OneShot" DurationMin="0.270167" DurationMax="0.270167"/>
 				<Event Id="3003063303" Name="KeyShimmer" ObjectPath="\Events\Default Work Unit\KeyShimmer" DurationType="Infinite"/>
 				<Event Id="3966601280" Name="PlayerDie" ObjectPath="\Events\Default Work Unit\PlayerDie" DurationType="OneShot" DurationMin="4.545208" DurationMax="4.545208"/>
@@ -75,6 +76,10 @@
 				<File Id="236351720" Language="SFX">
 					<ShortName>dd_sx_plr_footstep_03.wav</ShortName>
 					<Path>SFX\dd_sx_plr_footstep_03_10C4C929.wem</Path>
+				</File>
+				<File Id="302825584" Language="SFX">
+					<ShortName>dd_sx_int_door_open.wav</ShortName>
+					<Path>SFX\dd_sx_int_door_open_10C4C929.wem</Path>
 				</File>
 				<File Id="481661074" Language="SFX">
 					<ShortName>dd_sx_plr_footstep_layer_04.wav</ShortName>
