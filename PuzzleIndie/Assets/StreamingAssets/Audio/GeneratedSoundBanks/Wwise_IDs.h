@@ -19,7 +19,6 @@ namespace AK
         static const AkUniqueID KEYSHIMMER = 3003063303U;
         static const AkUniqueID PLAYERDIE = 3966601280U;
         static const AkUniqueID PLAYERFOOTSTEP = 3542290436U;
-        static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID STOPDEMONFLOAT = 2964613972U;
         static const AkUniqueID TORCH = 1904864137U;
     } // namespace EVENTS

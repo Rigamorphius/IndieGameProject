@@ -1,6 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
 	116600283	DoorLocked			\Default Work Unit\DoorLocked	
-	452547817	Stop_All			\Default Work Unit\Stop_All	
 	657200748	DemonFloat			\Default Work Unit\DemonFloat	
 	1616845350	KeyPickup			\Default Work Unit\KeyPickup	
 	1904864137	Torch			\Default Work Unit\Torch	

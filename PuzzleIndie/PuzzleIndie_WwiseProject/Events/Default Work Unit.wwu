@@ -84,6 +84,7 @@
 						<Action Name="" ID="{31EAE412-20E7-416F-80BB-58C6A6A2F20A}" ShortID="144196267">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -111,17 +112,6 @@
 									<ObjectRef Name="dd_sx_int_key_pickup" ID="{18CCF0CC-29B9-4FDF-ABF3-5F1A637F187B}" WorkUnitID="{A6D9A772-6FB0-4956-9D07-5F7891729987}"/>
 								</Reference>
 							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_All" ID="{72433000-6C22-4472-ADB2-914F25ED5F4F}">
-					<ChildrenList>
-						<Action Name="" ID="{2D7536F8-0C39-4B25-B68E-38EF44FF3B87}" ShortID="615595323">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="3"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>

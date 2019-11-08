@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: b3109ec293a7b3448c638e814dc46908
     GuidInternal: 
-    m_lastTime: -8586284241017690660
+    m_lastTime: -8586284220366712374
     List:
     - name: Main
       guid: 716f31624bf2bd4685d431c1fb989de9
@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: cba7b37f528be24e947a62babf1705c8
     GuidInternal: 
-    m_lastTime: -8586284238659889746
+    m_lastTime: -8586284220366812313
     List:
     - name: DemonFloat
       guid: 5703d54fd37a7c4686e98300e1adb8fa
@@ -121,18 +121,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.509771
       minDuration: 0.276958
-    - name: Stop_All
-      guid: 00304372226c7244adb2914f25ed5f4f
-      id: 452547817
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Stop_All
-        ObjectType: 3
-      Path: Default Work Unit\Stop_All
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
     - name: StopDemonFloat
       guid: 5a3bf61208a81344870b436aea6d43a4
       id: 2964613972
