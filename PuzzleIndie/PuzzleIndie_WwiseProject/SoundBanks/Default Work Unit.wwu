@@ -5,6 +5,9 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{62316F71-F24B-46BD-85D4-31C1FB989DE9}">
 					<ObjectInclusionList>
+						<ObjectRef Name="KeyPickup" ID="{8C5A3438-C1CA-40F4-B837-B5B525CF2721}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopDemonFloat" ID="{12F63B5A-A808-4413-870B-436AEA6D43A4}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_All" ID="{72433000-6C22-4472-ADB2-914F25ED5F4F}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Torch" ID="{00B12155-816A-4485-BB65-E66C99FF8567}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DemonFloat" ID="{4FD50357-7AD3-467C-86E9-8300E1ADB8FA}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="KeyShimmer" ID="{BCE6FDB3-4227-4A8E-80E8-01F2BBBE5767}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>

@@ -23,9 +23,12 @@
 			<IncludedEvents>
 				<Event Id="657200748" Name="DemonFloat" ObjectPath="\Events\Default Work Unit\DemonFloat" DurationType="Infinite"/>
 				<Event Id="116600283" Name="DoorLocked" ObjectPath="\Events\Default Work Unit\DoorLocked" DurationType="OneShot" DurationMin="0.231367" DurationMax="0.245125"/>
+				<Event Id="1616845350" Name="KeyPickup" ObjectPath="\Events\Default Work Unit\KeyPickup" DurationType="OneShot" DurationMin="0.270167" DurationMax="0.270167"/>
 				<Event Id="3003063303" Name="KeyShimmer" ObjectPath="\Events\Default Work Unit\KeyShimmer" DurationType="Infinite"/>
 				<Event Id="3966601280" Name="PlayerDie" ObjectPath="\Events\Default Work Unit\PlayerDie" DurationType="OneShot" DurationMin="4.545208" DurationMax="4.545208"/>
 				<Event Id="3542290436" Name="PlayerFootstep" ObjectPath="\Events\Default Work Unit\PlayerFootstep" DurationType="OneShot" DurationMin="0.276958" DurationMax="0.509771"/>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2964613972" Name="StopDemonFloat" ObjectPath="\Events\Default Work Unit\StopDemonFloat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1904864137" Name="Torch" ObjectPath="\Events\Default Work Unit\Torch" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -68,6 +71,10 @@
 				<File Id="679689961" Language="SFX">
 					<ShortName>dd_sx_plr_footstep_01.wav</ShortName>
 					<Path>SFX\dd_sx_plr_footstep_01_10C4C929.wem</Path>
+				</File>
+				<File Id="704223310" Language="SFX">
+					<ShortName>dd_sx_int_key_pickup.wav</ShortName>
+					<Path>SFX\dd_sx_int_key_pickup_10C4C929.wem</Path>
 				</File>
 				<File Id="779440756" Language="SFX">
 					<ShortName>dd_sx_npc_demon_float.wav</ShortName>

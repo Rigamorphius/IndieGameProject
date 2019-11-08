@@ -26,7 +26,17 @@ public class InventoryObject : InteractiveObject
     {
         base.InteractWith();
         PlayerInventory.InventoryObjects.Add(this);
+
+        /* ckrueger audio */
+        PlaySoundKeyPickup();
+
         renderer.enabled = false;
         collider.enabled = false;
+    }
+
+    /* ckrueger audio */
+    void PlaySoundKeyPickup()
+    {
+        AkSoundEngine.PostEvent("KeyPickup", gameObject);
     }
 }

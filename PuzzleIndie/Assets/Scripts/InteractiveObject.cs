@@ -29,7 +29,5 @@ public virtual string DisplayText => displayText;
         {
             throw new System.Exception("Missing audio source component or audio clip: Interactive object requires audio source component with an audio clip assigned");
         }
-        
-        
     }
 } 

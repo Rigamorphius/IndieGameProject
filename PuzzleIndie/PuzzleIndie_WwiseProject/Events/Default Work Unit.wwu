@@ -79,6 +79,52 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StopDemonFloat" ID="{12F63B5A-A808-4413-870B-436AEA6D43A4}">
+					<ChildrenList>
+						<Action Name="" ID="{31EAE412-20E7-416F-80BB-58C6A6A2F20A}" ShortID="144196267">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dd_sx_npc_demon_float" ID="{7B16C191-AE10-499E-8713-08279A2FD2A9}" WorkUnitID="{A6D9A772-6FB0-4956-9D07-5F7891729987}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="KeyPickup" ID="{8C5A3438-C1CA-40F4-B837-B5B525CF2721}">
+					<ChildrenList>
+						<Action Name="" ID="{B4AACDFE-FD57-464C-8520-5765E73AA9E9}" ShortID="517689271">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dd_sx_int_key_shimmer" ID="{E2BFFBE0-F7F9-43D1-813F-F23F2EADCBBA}" WorkUnitID="{A6D9A772-6FB0-4956-9D07-5F7891729987}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8EBD825F-3ECC-4E1A-9AB3-7C6A83C4121E}" ShortID="465755907">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dd_sx_int_key_pickup" ID="{18CCF0CC-29B9-4FDF-ABF3-5F1A637F187B}" WorkUnitID="{A6D9A772-6FB0-4956-9D07-5F7891729987}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_All" ID="{72433000-6C22-4472-ADB2-914F25ED5F4F}">
+					<ChildrenList>
+						<Action Name="" ID="{2D7536F8-0C39-4B25-B68E-38EF44FF3B87}" ShortID="615595323">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

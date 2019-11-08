@@ -10,6 +10,7 @@ public class EnemyKill : MonoBehaviour
         if (other.gameObject.tag == "Player")
 
         /* ckrueger audio */
+        AkSoundEngine.PostEvent("Stop_All", gameObject);
         PlaySoundPlayerDie();
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
