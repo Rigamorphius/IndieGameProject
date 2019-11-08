@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1404211869	PlayMusic1			\Default Work Unit\PlayMusic1	
+	1404211870	PlayMusic2			\Default Work Unit\PlayMusic2	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	492908118	Dd_L2	C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\Dd_L2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 2\Dd_L2\Dd_L2		41406320
+	826477446	Dd_L1	C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Mac\SFX\Dd_L1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 1\Dd_L1\Dd_L1		27696984
+

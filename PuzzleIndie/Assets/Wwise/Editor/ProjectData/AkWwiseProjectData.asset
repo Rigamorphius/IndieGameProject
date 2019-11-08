@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: b3109ec293a7b3448c638e814dc46908
     GuidInternal: 
-    m_lastTime: -8586284220366712374
+    m_lastTime: -8586284187839376737
     List:
     - name: Main
       guid: 716f31624bf2bd4685d431c1fb989de9
@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: cba7b37f528be24e947a62babf1705c8
     GuidInternal: 
-    m_lastTime: -8586284220366812313
+    m_lastTime: -8586284188976573662
     List:
     - name: DemonFloat
       guid: 5703d54fd37a7c4686e98300e1adb8fa
@@ -121,6 +121,42 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.509771
       minDuration: 0.276958
+    - name: PlayMusic1
+      guid: 980a63824453ce408965d316ed7fece8
+      id: 1404211869
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayMusic1
+        ObjectType: 3
+      Path: Default Work Unit\PlayMusic1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayMusic2
+      guid: b847d8d05edfd345bb1121bd65a2830a
+      id: 1404211870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayMusic2
+        ObjectType: 3
+      Path: Default Work Unit\PlayMusic2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayMusic3
+      guid: ade8c43b31842f4db524a859e7630bad
+      id: 1404211871
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayMusic3
+        ObjectType: 3
+      Path: Default Work Unit\PlayMusic3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: StopDemonFloat
       guid: 5a3bf61208a81344870b436aea6d43a4
       id: 2964613972

@@ -14,11 +14,13 @@ public class Door : InteractiveObject
     [SerializeField]
     private string lockedDisplayText = "Locked";
 
-    [SerializeField]
-    private AudioClip lockedAudioClip;
+    /* ckrueger audio */
+    //commented these out since theyre unneccessary after Wwise integration
+    //[SerializeField]
+    //private AudioClip lockedAudioClip;
 
-    [SerializeField]
-    private AudioClip openAudioClip;
+    //[SerializeField]
+    //private AudioClip openAudioClip;
 
     //public override string DisplayText => isLocked ? lockedDisplayText : base.displayText;
 
@@ -68,11 +70,13 @@ public class Door : InteractiveObject
         {
             if (isLocked && !HasKey)
             {
-                audioSource.clip = lockedAudioClip;             
+                /* ckrueger audio */
+                PlaySoundDoorLocked();
             }
             else
             {
-                audioSource.clip = openAudioClip;
+                //audioSource.clip = openAudioClip;
+
                 animator.SetBool("shouldOpen", true);
                 displayText = string.Empty;
                 isOpen = true;
@@ -89,5 +93,11 @@ public class Door : InteractiveObject
         {
             PlayerInventory.InventoryObjects.Remove(key);
         }
+    }
+
+    /* ckrueger audio */
+    void PlaySoundDoorLocked()
+    {
+        AkSoundEngine.PostEvent("DoorLocked", gameObject);
     }
 }

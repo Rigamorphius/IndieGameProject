@@ -7,13 +7,27 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="KeyPickup" ID="{8C5A3438-C1CA-40F4-B837-B5B525CF2721}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StopDemonFloat" ID="{12F63B5A-A808-4413-870B-436AEA6D43A4}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Stop_All" ID="{72433000-6C22-4472-ADB2-914F25ED5F4F}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Torch" ID="{00B12155-816A-4485-BB65-E66C99FF8567}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DemonFloat" ID="{4FD50357-7AD3-467C-86E9-8300E1ADB8FA}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="KeyShimmer" ID="{BCE6FDB3-4227-4A8E-80E8-01F2BBBE5767}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerDie" ID="{09BAA65E-9763-4B07-8D74-AF039B38228F}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DoorLocked" ID="{75E23D42-857F-4CEB-86DB-A0F416BFC517}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerFootstep" ID="{E221540A-6952-4DA2-BECD-D6BE2AD732B1}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music_1" ID="{1E735870-C194-40C9-91BC-20CADB4E6C3A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayMusic1" ID="{82630A98-5344-40CE-8965-D316ED7FECE8}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayMusic2" ID="{D0D847B8-DF5E-45D3-BB11-21BD65A2830A}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music_2" ID="{204F5869-0FB2-4092-8334-64091ECFB006}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayMusic3" ID="{3BC4E8AD-8431-4D2F-B524-A859E7630BAD}" WorkUnitID="{7FB3A7CB-8B52-4EE2-947A-62BABF1705C8}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

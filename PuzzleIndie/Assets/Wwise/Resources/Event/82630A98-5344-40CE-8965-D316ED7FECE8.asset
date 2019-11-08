@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab28c69656974a64a91729960ea4c731, type: 3}
+  m_Name: 82630A98-5344-40CE-8965-D316ED7FECE8
+  m_EditorClassIdentifier: 
+  objectName: PlayMusic1
+  id: 1404211869
+  guid: 82630A98-5344-40CE-8965-D316ED7FECE8

@@ -115,6 +115,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayMusic1" ID="{82630A98-5344-40CE-8965-D316ED7FECE8}">
+					<ChildrenList>
+						<Action Name="" ID="{2B6403E4-BC00-43E4-B5C7-0E15BF51C7CB}" ShortID="290534871">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music 1" ID="{9F48C58E-EAE4-43DC-8C59-4F5EF3D35F6A}" WorkUnitID="{EF197810-F429-4408-9054-783995B106FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayMusic2" ID="{D0D847B8-DF5E-45D3-BB11-21BD65A2830A}">
+					<ChildrenList>
+						<Action Name="" ID="{B7FE8487-A180-4D80-81B3-CD01F2BF4698}" ShortID="440847014">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music 2" ID="{E08142B9-FD76-451A-8381-56F77AB1C6CA}" WorkUnitID="{EF197810-F429-4408-9054-783995B106FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayMusic3" ID="{3BC4E8AD-8431-4D2F-B524-A859E7630BAD}">
+					<ChildrenList>
+						<Action Name="" ID="{6E8797A3-CFBC-4944-9486-8414E2961B4F}" ShortID="216385812">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music 3" ID="{39AA3D6A-19A4-4BCF-A378-FE11A4D89F18}" WorkUnitID="{EF197810-F429-4408-9054-783995B106FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

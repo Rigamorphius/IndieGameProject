@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1404211871	PlayMusic3			\Default Work Unit\PlayMusic3	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	692671569	Dd_L3	C:\Users\Cole Krueger\Documents\GitHub\IndieGameProject\PuzzleIndie\PuzzleIndie_WwiseProject\.cache\Windows\SFX\Dd_L3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 3\Dd_L3\Dd_L3		36179236
+
