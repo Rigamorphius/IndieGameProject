@@ -95429,12 +95429,12 @@ PrefabInstance:
     - target: {fileID: 1694000049598906438, guid: f65aaa078668a254b9cf2f4ac4afd22c,
         type: 3}
       propertyPath: looking.lookSpeed
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 1694000049598906438, guid: f65aaa078668a254b9cf2f4ac4afd22c,
         type: 3}
       propertyPath: looking.runLookSpeed
-      value: 0.4
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f65aaa078668a254b9cf2f4ac4afd22c, type: 3}
